@@ -26,6 +26,7 @@
     NSLog(@"The result is: %d", self.sum);
     [self sayHello];
     [self sayByeBye];
+    NSLog(@"这是再见,youhe");
 }
 
 -(void)sayHello{
