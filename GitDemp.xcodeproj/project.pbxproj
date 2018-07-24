@@ -13,6 +13,7 @@
 		049D56B52107105D00C1E9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D56B42107105D00C1E9E3 /* Assets.xcassets */; };
 		049D56B82107105D00C1E9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049D56B62107105D00C1E9E3 /* LaunchScreen.storyboard */; };
 		049D56BB2107105D00C1E9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D56BA2107105D00C1E9E3 /* main.m */; };
+		049D56C321071A3E00C1E9E3 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D56C221071A3E00C1E9E3 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		049D56B72107105D00C1E9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049D56B92107105D00C1E9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049D56BA2107105D00C1E9E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049D56C121071A3E00C1E9E3 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		049D56C221071A3E00C1E9E3 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				049D56B62107105D00C1E9E3 /* LaunchScreen.storyboard */,
 				049D56B92107105D00C1E9E3 /* Info.plist */,
 				049D56BA2107105D00C1E9E3 /* main.m */,
+				049D56C121071A3E00C1E9E3 /* TestClass.h */,
+				049D56C221071A3E00C1E9E3 /* TestClass.m */,
 			);
 			path = GitDemp;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049D56C321071A3E00C1E9E3 /* TestClass.m in Sources */,
 				049D56B02107105C00C1E9E3 /* ViewController.m in Sources */,
 				049D56BB2107105D00C1E9E3 /* main.m in Sources */,
 				049D56AD2107105C00C1E9E3 /* AppDelegate.m in Sources */,
